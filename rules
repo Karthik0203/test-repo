@@ -4,10 +4,6 @@
 <Rule language="beanshell" name="Dummy">
   <Source>
 import sailpoint.object.Identity;
-import org.apache.commons.logging.LogFactory;
-import org.apache.commons.logging.Log;
-
-  Log log = LogFactory.getLog("Rahul.logs");
    
   Identity user = context.getObjectByName(Identity.class,"Aaron.Nichols");
   
